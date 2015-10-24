@@ -8,4 +8,7 @@
 
 Monitor twisted apps via manhole
 
+### Usage
+
+    python manhole-monitor.py -h
 
