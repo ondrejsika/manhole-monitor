@@ -5,7 +5,7 @@ from twisted.internet.task import LoopingCall
 from twisted.protocols.basic import LineReceiver
 
 
-parser = argparse.ArgumentParser('manhole monitor')
+parser = argparse.ArgumentParser('python manhole-monitor.py')
 parser.add_argument('host')
 parser.add_argument('port', type=int)
 parser.add_argument('wait', type=int)

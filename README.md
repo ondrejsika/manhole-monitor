@@ -10,5 +10,17 @@ Monitor twisted apps via manhole
 
 ### Usage
 
-    python manhole-monitor.py -h
+
+
+    usage: python manhole-monitor.py [-h] [--show-input] host port wait py_file
+
+    positional arguments:
+      host
+      port
+      wait
+      py_file
+
+    optional arguments:
+      -h, --help    show this help message and exit
+      --show-input
 
